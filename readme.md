@@ -28,3 +28,13 @@ This Google Apps Script automates the creation of recurring Habitica To-Do tasks
    ```
 
 3. Run the `main()` function in Google Apps Script to sync tasks.
+
+---
+
+# Habitica Quest Auto-Join (`habitica_auto_join_quest.js`)
+
+This Google Apps Script automatically checks if a new Habitica party quest is available and joins it if the user hasn't already. It fetches the current quest status and only joins if the quest is inactive and the user is not yet a member.
+
+## Setup
+1. Update the script with your Habitica API credentials (`x-api-user` and `x-api-key`).
+2. Run the `scheduleJoinQuest()` function in Google Apps Script to check and join available quests.
